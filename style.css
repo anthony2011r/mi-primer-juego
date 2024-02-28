@@ -1,0 +1,82 @@
+
+body {
+    height: 100vh;
+
+    margin: 0;
+    background-color: black;
+    padding: 0;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.imagen {
+    position: relative;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border: 10px solid white;
+    border-radius: 10px;   
+}
+
+#intruso {
+    position: absolute;
+    bottom: 65px;
+    right: 80px;
+
+    height: 55px;
+    width: 55px;
+
+    border: 1px solid none;
+    border-radius: 40px;
+}
+
+.clicks {
+    font-size: 30px;
+    color: green;
+}
+
+.alerta {
+    position: absolute;
+
+    max-width: 200px;
+
+    padding: 20px;
+
+    background-color: white;
+    border-radius: 5%;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.alerta-mensaje {
+    margin: 0;
+
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+button {
+    border-radius: 20px;
+    background-color: grey;
+    padding: 5px 15px;
+
+    color: white;
+
+    text-transform: uppercase;
+
+    font-weight: bolder;
+    font-size: 18px;
+}
